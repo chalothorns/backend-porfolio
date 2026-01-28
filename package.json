@@ -1,0 +1,27 @@
+{
+  "name": "backend-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "scr/server.js",
+  "scripts": {
+    "start": "node --env-file=.env src/server.js",
+    "dev": "node --watch --env-file=.env src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chalothorns/backend-porfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/chalothorns/backend-porfolio/issues"
+  },
+  "homepage": "https://github.com/chalothorns/backend-porfolio#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5"
+  }
+}
